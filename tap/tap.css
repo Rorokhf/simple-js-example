@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dad3f8;
+}
+.container{
+    width: 100%;
+    max-width: 950px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 40px 50px 40px 40px;
+    margin: 20px 20px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+@media (max-width:740px){
+   
+    .container{
+        padding: 40px 6px 40px 7px;
+    }
+}
+.container .main-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+@media (max-width:740px){
+    .container .content{
+        flex-direction: column;
+    }
+  
+}
+.container .content .list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20%;
+    margin-right: 50px;
+}
+@media (max-width:740px){
+   
+    .container .content .list{
+        
+        width: 100%;
+        
+    }
+}
+.container .list label{
+    height: 60px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    line-height: 60px;
+    cursor: pointer;
+    padding-left: 25px;
+    z-index: 12;
+    transition: all 0.4 ease;
+    -webkit-transition: all 0.4 ease;
+    -moz-transition: all 0.4 ease;
+    -ms-transition: all 0.4 ease;
+    -o-transition: all 0.4 ease;
+}
+
+
+
+.container input[type="radio"]{
+    display: none;
+}
+.content .text-content{
+    width: 80%;
+    height: 100%;
+}
+@media (max-width:740px){
+   
+    .content .text-content{
+        
+        width: 100%;
+        
+    }
+    .container .list label{
+        margin: 0 23px;
+    }
+}
+.content .text-content .text{
+    display: none;
+}
+.content .text-content .title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    top: 0;
+    
+}
+.content .text-content .p{
+    text-align:justify ;
+}
+.active{
+    display: block !important;
+}

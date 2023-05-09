@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.sub-service .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-box {
+    padding: 45px 45px 45px 45px;
+    cursor: pointer;
+    transition: ease .50s;
+    -webkit-transition: ease .50s;
+    -moz-transition: ease .50s;
+    -ms-transition: ease .50s;
+    -o-transition: ease .50s;
+}
+
+.sub-img i {
+    max-width: 100%;
+    font-size: 80px;
+    margin-bottom: 20px;
+    /* color: black; */
+}
+
+.sub-box h3 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sub-box p {
+    font-size: var(--p-font);
+    color: var(--secound-color);
+    line-height: 29px;
+}
+
+.sub-box:hover {
+    background: #ffffff;
+    box-shadow: 18px 0px 87px 0px rgb(10 15 70 /7%);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    will-change: transform;
+    transform: perspective(1000px) rotateX(4.88deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+    -webkit-transform: perspective(1000px) rotateX(4.88deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+    -moz-transform: perspective(1000px) rotateX(4.88deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+    -ms-transform: perspective(1000px) rotateX(4.88deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+    -o-transform: perspective(1000px) rotateX(4.88deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
