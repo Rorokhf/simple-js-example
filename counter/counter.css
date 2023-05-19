@@ -103,10 +103,13 @@ svg {
     top: 0;
     left: 0;
 }
-
+:root {
+    --change: 0;
+  }
 @keyframes anim {
+
     100% {
-        stroke-dashoffset: 0;
+        stroke-dashoffset:var(--change);
     }
 }
 .btn{
